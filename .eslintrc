@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "@antfu",
+    "@unocss"
+  ],
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "@typescript-eslint/semi": [
+      "error",
+      "always"
+    ],
+    "@typescript-eslint/quotes": [
+      0,
+      "never"
+    ],
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}
