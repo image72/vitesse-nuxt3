@@ -15,15 +15,12 @@ function go() {
       v-model="name"
       placeholder="What's your name?"
       type="text" autocomplete="off"
-      p="x-4 y-2" m="t-5" w="250px"
-      text="center" bg="transparent"
-      border="~ rounded gray-200 dark:gray-700"
-      outline="none active:none"
+      class="outline-active:none m-(t-5) w-250px border border-(dark:gray-700 gray-200 rounded) bg-transparent p-(x-4 y-2) text-center outline-none"
       @keydown.enter="go"
     >
     <div>
       <button
-        m-3 text-sm btn
+        class="m-3 text-sm btn"
         :disabled="!name"
         @click="go"
       >

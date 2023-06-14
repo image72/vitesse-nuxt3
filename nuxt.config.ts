@@ -1,3 +1,4 @@
+import { defineNuxtConfig } from 'nuxt/config';
 import { pwa } from './config/pwa';
 import { appDescription } from './constants/index';
 
@@ -20,6 +21,7 @@ export default defineNuxtConfig({
 
   css: [
     '@unocss/reset/tailwind.css',
+    // '~/styles/vueflow.scss'
   ],
 
   colorMode: {
